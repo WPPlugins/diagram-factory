@@ -1,0 +1,134 @@
+/* message */
+.message {
+	margin: 0.15em 0 0 0;
+    padding: 0;
+}
+
+.message.error {
+	color: red;
+}
+
+/* axis */
+.axis path {
+	fill: none;
+	shape-rendering: crispEdges;
+	stroke: #000;
+}
+
+.axis path.zero {
+	stroke: #ccc;
+}
+
+.axis .tick line {
+	opacity: 0.9;
+	fill: none;
+	shape-rendering: crispEdges;
+}
+
+.axis .label {
+	fill: #000;
+}
+
+/* label */
+.label:hover {
+	cursor: pointer;
+}
+
+/* bar */
+.bar {
+	opacity: 0.9;
+}
+
+.bar:hover {
+	opacity: 1.0;
+	cursor: pointer;
+}
+
+/* bubble */
+.bubble {
+	opacity: 0.9;
+}
+
+.bubble:hover {
+	opacity: 1.0;
+	cursor: pointer;
+}
+
+/* packLabel */
+.packLabel {
+	opacity: 1.0;
+}
+
+.packLabel:hover {
+	opacity: 0.9;
+	cursor: pointer;
+}
+
+/* dot */
+.dot {
+	opacity: 0.9;
+}
+
+.dot:hover {
+	opacity: 1.0;
+	cursor: pointer;
+}
+
+/* line */
+.line {
+	opacity: 0.9;
+	fill: none;
+	stroke-width: 1.5px;
+}
+
+.line:hover {
+	opacity: 1.0;
+	cursor: pointer;
+}
+
+/* pie */
+.pie {
+	opacity: 0.9;
+}
+
+.pie:hover {
+	opacity: 1.0;
+	cursor: pointer;
+}
+
+path.pie {
+  stroke: #fff;
+}
+
+/* arcLabel */
+.arcLabel .line {
+	fill: none;
+	stroke: #000;
+	opacity: 0.3;
+	stroke-width: 2px;
+}
+
+/* legend */
+
+.legend > .label {
+	fill: dimgray;
+}
+
+@media only screen and (max-device-width : 450px) {
+
+	figure.dgf figcaption {
+		font-size: 1.5em;
+	}
+	
+	.label {
+		font-size: 22pt;
+	}
+	
+	.axis .label {
+		font-size: 22pt;
+	}
+	
+	.axis text {
+		font-size: 22pt;
+	}
+}
